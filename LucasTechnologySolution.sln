@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.6.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A0FA671A-990D-4C6F-9B66-B02CF384AE3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{F8A773F2-F781-4FCA-A906-9337F9FDFF73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucasTechnology.Web", "src\UI\LucasTechnology.Web\LucasTechnology.Web.csproj", "{A20FD00D-4499-43D0-A470-CA6A7D2CD9F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A20FD00D-4499-43D0-A470-CA6A7D2CD9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20FD00D-4499-43D0-A470-CA6A7D2CD9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20FD00D-4499-43D0-A470-CA6A7D2CD9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20FD00D-4499-43D0-A470-CA6A7D2CD9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8A773F2-F781-4FCA-A906-9337F9FDFF73} = {A0FA671A-990D-4C6F-9B66-B02CF384AE3B}
+		{A20FD00D-4499-43D0-A470-CA6A7D2CD9F2} = {F8A773F2-F781-4FCA-A906-9337F9FDFF73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB579B8E-6700-4D48-B5E8-92947D0E119C}
+	EndGlobalSection
+EndGlobal
