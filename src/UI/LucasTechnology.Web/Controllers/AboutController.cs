@@ -10,19 +10,19 @@ namespace LucasTechnology.Web.Controllers
     public class AboutController : Controller
     {
         // GET: AboutController
-        public ActionResult Index()
+        public IActionResult Index()
         {
             return View();
         }
 
         // GET: AboutController/Details/5
-        public ActionResult Details(int id)
+        public IActionResult Details(int id)
         {
             return View();
         }
 
         // GET: AboutController/Create
-        public ActionResult Create()
+        public IActionResult Create()
         {
             return View();
         }
@@ -30,7 +30,7 @@ namespace LucasTechnology.Web.Controllers
         // POST: AboutController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public IActionResult Create(IFormCollection collection)
         {
             try
             {
@@ -43,7 +43,7 @@ namespace LucasTechnology.Web.Controllers
         }
 
         // GET: AboutController/Edit/5
-        public ActionResult Edit(int id)
+        public IActionResult Edit(int id)
         {
             return View();
         }
@@ -51,7 +51,7 @@ namespace LucasTechnology.Web.Controllers
         // POST: AboutController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public IActionResult Edit(int id, IFormCollection collection)
         {
             try
             {
@@ -64,7 +64,7 @@ namespace LucasTechnology.Web.Controllers
         }
 
         // GET: AboutController/Delete/5
-        public ActionResult Delete(int id)
+        public IActionResult Delete(int id)
         {
             return View();
         }
@@ -72,7 +72,7 @@ namespace LucasTechnology.Web.Controllers
         // POST: AboutController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public IActionResult Delete(int id, IFormCollection collection)
         {
             try
             {

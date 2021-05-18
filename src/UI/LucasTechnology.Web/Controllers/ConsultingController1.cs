@@ -8,9 +8,12 @@ namespace LucasTechnology.Web.Controllers
 {
     public class ConsultingController1 : Controller
     {
+        // GET: ConsultingController
         public IActionResult Index()
         {
             return View();
         }
+
+        
     }
 }
