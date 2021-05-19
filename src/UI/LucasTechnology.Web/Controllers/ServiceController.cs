@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace LucasTechnology.Web.Controllers
 {
-    public class PortfolioController1 : Controller
+    public class ServiceController : Controller
     {
-        // GET: PortfolioController1
         public IActionResult Index()
         {
             return View();
         }
-
-        
     }
 }
