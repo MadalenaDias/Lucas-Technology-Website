@@ -1,7 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
 <style type="text/css">
     h1,
     p,
@@ -14,6 +13,9 @@
 
 <link rel="stylesheet" href="~/css/home.css">
 
+@{
+    ViewData["Title"] = "Home Page";
+}
 <style type="text/css">
     h1,
     p,
@@ -23,11 +25,17 @@
 </style>
 
 <link rel="stylesheet" href="~/css/home.css">
+<img src="~/media/Logomarca00100.png" height="480" length="120" align="centre"/> 
 
 <div class="jumbotron-fluid imagebackground">
+    
+    
+    
     <section class="h-100 w-100 justify-content-center">
 
-        <div class="d-flex justify-content-center" style="height:60%">
+         
+               
+        <div class="d-flex justify-content-center " style="height:60%">
             <div class="text-white mt-auto">
 
                 <h1 id="middleText" class="mb-3"></h1>
@@ -35,17 +43,16 @@
 
             </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center" style="height:40%">
+        <div class="d-flex justify-content-center align-items-center " style="height:40%">
             <div class="text-white mb-auto">
-                <a class="btn btn-outline-light btn-lg" href="/Service#ref1" role="button">Know our services</a>
+                <a class="btn btn-outline-light btn-lg" href="/Services1#ref1" role="button">Create your web System with Us</a>
             </div>
         </div>
 
 
     </section>
 </div>
-<hr />
-
+<hr>
 <section class="h-100">
     <table class="h-100">
         <h1 class="display-4 text-center " style="margin-bottom:10%">Our Services</h1>
@@ -59,9 +66,9 @@
                                     z-index: 2;">
                     <div class="card-body">
                         <h5 class="card-title text-center">Cloud Infrastructure</h5>
-                        <p class="card-text text-center ">The infrastructure that your bussiness needs to scale</p>
+                        
                     </div>
-                    <a href="/About#ref1" class="btn btn-secondary position-absolute-bottom" style="border-radius: 5px 5px 5px 5px;
+                    <a href="/Services1#ref1" class="btn btn-secondary position-absolute-bottom" style="border-radius: 5px 5px 5px 5px;
                             width:100%;
                             box-shadow: 2px 2px 5px #000;">Learn More</a>
                 </div>
@@ -71,40 +78,40 @@
 
                 <div class="card card-position" style="transform: translateY(-10px)">
                     <div class="card-back-position"></div>
-                    <img class="card-img-top" src="~/media/softdevelopment.png" alt="Card image cap" style="border-radius: 50%;
+                    <img class="card-img-top" src="~/media/solutionsinsoftware.png" alt="Card image cap" style="border-radius: 50%;
                                     z-index: 2;">
                     <div class="card-body">
                         <h5 class="card-title text-center">Software Development</h5>
-                        <p class="card-text text-center ">Building intelligent solutions</p>
+                        <p class="card-text text-center ">Transforming ideas</p>
 
                     </div>
                     <a href="/About#ref2" class="btn btn-secondary position-absolute-bottom" style="border-radius: 5px 5px 5px 5px;
                             width:100%;
-                            box-shadow: 2px 2px 5px #000;">Learn More</a>
+                            box-shadow: 2px 2px 5px #000;">Saiba Mais</a>
                 </div>
             </div>
 
-            <div class="align-middle col-md-4 order-sm-2 order-1" data-aos="fade-up" data-aos-duration="1500">
+            <div class="align-bottom col-md-4 order-3" data-aos="fade-up" data-aos-duration="1500"
+                 data-aos-offset="500">
 
-                <div class="card card-position" style="transform: translateY(-10px)">
+                <div class="card card-position" style="">
                     <div class="card-back-position"></div>
-                    <img class="card-img-top" src="~/media/65 ingles.png" alt="Card image cap" style="border-radius: 50%;
+                    <img class="card-img-top" src="~/media/projectconsulting.png" alt="Card image cap" style="border-radius: 50%;
                                     z-index: 2;">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Bussiness intelligence</h5>
-                        <p class="card-text text-center ">Intelligence always beside your bussiness</p>
-
+                        <h5 class="card-title text-center">Project Consulting</h5>
+                        <p class="card-text text-center ">Planning your project to your success</p>
                     </div>
-                    <a href="/About#ref2" class="btn btn-secondary position-absolute-bottom" style="border-radius: 5px 5px 5px 5px;
+                    <a href="/#ref3" class="btn btn-secondary position-absolute-bottom" style="border-radius: 5px 5px 5px 5px;
                             width:100%;
-                            box-shadow: 2px 2px 5px #000;">Learn More</a>
+                            box-shadow: 2px 2px 5px #000;">Saiba Mais</a>
                 </div>
             </div>
     </table>
 </section>
 
 <script>
-    let texts = ['DELIVERING SOLUTIONS IN TECHNOLOGY IN YOUR HANDS']
+    let texts = ['A LIBERDADE DE CONVERSAR COM O MUNDO INTEIRO']
     consoleText(texts, 'middleText', ['white'])
     function consoleText(words, id, colors) {
         if (colors === undefined) colors = ['#fff'];

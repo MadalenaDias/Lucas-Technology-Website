@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LucasTechnology.Web.Controllers
 {
-    public class ServiceController : Controller
+    public class Services1Controller : Controller
     {
         public IActionResult Index()
         {
